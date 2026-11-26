@@ -1,0 +1,18 @@
+{
+  "name": "nueva-app-attack-cruz",
+  "version": "0.1.0",
+  "private": true,
+  "description": "RPG de hábitos diarios ambientado en Santa Cruz de la Sierra",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "sync": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.6.3",
+    "@capacitor/core": "8.6.3",
+    "@capacitor/local-notifications": "8.3.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.6.3"
+  }
+}
